@@ -13,6 +13,11 @@
 </head>
 
 <body>
+  <div class="w-100 btn btn-success insertMsg">Data Inserted successfully!</div>
+  <div class="w-100 btn btn-warning updateMsg">Data Updated successfully!, refresh to see Result </div>
+  <div class="w-100 btn btn-danger deleteMsg">Data deleted!</div>
+
+  
   <div class="container text-center">
     <h1 class="bg-light py-4 text-info"> <i class="fas fa-plug"></i>Electronic Container
     </h1>
@@ -61,10 +66,10 @@
           <th scope="col">Delete </th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
+      <tbody id="tbody">
+        <!-- <tr>
           <th scope="row">1</th>
-          <td>Lapto 2020</td>
+          <td>Laptop 2020</td>
           <td>Josiah</td>
           <td>450,000</td>
           <td><i class="fas fa-edit btnedit"></i></td>
@@ -79,10 +84,16 @@
           <td>450,000</td>
           <td><i class="fas fa-edit btnedit"></i></td>
            <td><i class="fas fa-trash-alt btndelete"></i></td>
-        </tr>
+        </tr> -->
       </tbody>
     </table>
+
   </div>
+  <div class="container text-center">
+    <div id="notfound"></div>
+  </div>
+
+  
 
   <!-- <script src="/public/js/bootstrap.min.js"></script> -->
 
